@@ -1,0 +1,111 @@
+body.center {
+  text-align: center;
+  padding: 0;
+}
+
+body.center div {
+  position: absolute;
+  top: 48%;
+  width: 100%;
+}
+
+body.center input {
+  color: #fff;
+  background: #fff;
+}
+
+body.center input::selection {
+  background: #fff;
+}
+
+body.center input::-moz-selection {
+  background: #fff;
+}
+
+body {
+  margin: 0;
+  padding: 1em;
+  background: #ddd;
+  color: #000;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.9em;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  font-size: 1em;
+  border: solid 1px #999;
+  line-height: 1.3em;
+  border-radius: 0.5em; -moz-border-radius: 0.5em; -webkit-border-radius: 0.5em;
+}
+
+fieldset div {
+}
+
+fieldset #names {
+  float: left;
+  width: 8em;
+}
+
+fieldset #fields {
+  border-left: solid 1px #999;
+  margin-left: 7.5em;
+  padding-left: 0.75em;
+}
+
+fieldset label {
+  display: block;
+  margin: 0 -0.75em 0 0;
+  padding: 0.75em;
+  font-size: 1em;
+  font-weight: bold;
+  height: 1.3em;
+  border-bottom: solid 1px #999;
+}
+
+fieldset input {
+  width: 100%;
+  height: 1.3em;
+  display: block;
+  padding: 0.75em 0 0.75em 0;
+  margin-right: 0.75em;
+  color: #456;
+  font-size: 1em;
+  line-height: 1.3em;
+  background: none;
+  border: none;
+  outline: none; -webkit-appearance: none;
+  border-bottom: solid 1px #999;
+  border-radius: 0; -moz-border-radius: 0; -webkit-border-radius: 0;
+}
+
+fieldset .last {
+  border-bottom: 0;
+}
+
+button {
+
+  display: inline-block;
+  width: 100%;
+  margin: 0.75em 0;
+  padding: 0.5em;
+  vertical-align: baseline;
+
+  background: #aaa;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#999));
+  background: -moz-linear-gradient(top, #ccc, #999);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccc', endColorstr='#999');
+
+  color: #333;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+
+  cursor: pointer;
+  border: solid 2px #777;
+  border-radius: 0.5em; -webkit-border-radius: 0.5em; -moz-border-radius: 0.5em;
+
+}
